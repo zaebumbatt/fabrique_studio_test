@@ -31,7 +31,7 @@ schema_view = get_schema_view(
 )
 
 urlpatterns = [
-    path('api/', include('mailing.urls')),
+    path('api/v1/', include('mailing.urls')),
     path('admin/', admin.site.urls),
     path('docs/', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
     path('', include('django_prometheus.urls')),

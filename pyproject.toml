@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "fabrique-studio-test"
 version = "0.1.0"
-description = ""
+description = "Mailing Management Service"
 authors = ["Nikita Ustiuzhanin <zaebumba@gmail.com>"]
 readme = "README.md"
 
