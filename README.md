@@ -1,13 +1,13 @@
-# Mailing management service
+# Mailing Management Service
 
-Test task from a [Fabrique Studio](https://fabrique.studio/)
+Test task from [Fabrique Studio](https://fabrique.studio/)
 
 - [Swagger](http://localhost/docs/)
-- [Prometheus](http://localhost:9090/) and [metrics](http://localhost/metrics)
+- [Prometheus](http://localhost:9090/) and [Metrics](http://localhost/metrics)
 
 ## Run
-To start a project: 
-1. Add ```.env``` file to a root with these variables:
+To start the project:   
+1. Add the ```.env``` file to the root directory with these variables:  
 ```
 POSTGRES_DB=
 POSTGRES_USER=
@@ -23,12 +23,12 @@ PROBE_FBRQ_JWT_TOKEN=
 docker compose up -d --build
 ```  
 
-3. Create superuser with the following command:
+3. Create a superuser with the following command:
 ```
 docker compose exec web python manage.py createsuperuser
  ```
 
-4. Login to [admin panel](http://localhost/admin/).
+4. Log in to the [admin panel](http://localhost/admin/).
 
 ## Run tests
 ```
